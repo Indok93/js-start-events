@@ -14,7 +14,8 @@
 
 <body>
     <div class="container-form">
-        <form>
+        <button type="button" id="formbtn">Skjul formularen</button>
+        <form id="formular">
             <label for="cow">Skriv ko:</label><br>
             <input type="text" id="cow" name="cow"><br>
     
@@ -27,15 +28,17 @@
 
             <label for="animal">Valg af dyr</label>
             <select name="animal" id="animal">
-                <option value="">Fugl</option>
-                <option value="">Fisk</option>
-                <option value="">Reptil</option>
-                <option value="">Insekt</option>
-                <option value="">Pattedyr</option>
+                <option value="Fugl">Fugl</option>
+                <option value="Fisk">Fisk</option>
+                <option value="Reptil">Reptil</option>
+                <option value="Insekt">Insekt</option>
+                <option value="Pattedyr">Pattedyr</option>
+                <option value="Menneske">Menneske</option>
             </select><br>
 
             <button type="button" id="evaluateForm">valider form</button>
         </form>
+        <p id="infobox"></p>
     </div>
 </body>
 

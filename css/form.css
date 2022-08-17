@@ -1,12 +1,14 @@
 .container-form {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 form {
-    border: 2px solid #333;
+    width: 300px;
+    border: 2px solid #888;
     border-radius: 5px;
     padding: 20px;
     background-color: aquamarine;
@@ -18,4 +20,13 @@ form input{
 
 form button{
     border-radius: 5px;
+}
+
+#infobox{
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+#hideButton{
+    margin: 1em;
 }
