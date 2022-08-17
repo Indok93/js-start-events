@@ -8,24 +8,35 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/css/form.css">
     <script src="js/events.js" defer></script>
 </head>
 
 <body>
-    <form>
-        <label for="cow">Skriv ko:</label><br>
-        <input type="text" id="cow" name="cow"><br>
+    <div class="container-form">
+        <form>
+            <label for="cow">Skriv ko:</label><br>
+            <input type="text" id="cow" name="cow"><br>
+    
+            <label for="pig">skriv gris</label><br>
+            <input type="text" id="pig" value="bob" name="pig">
+            <button type="button" id="evaluatePig">valider</button><br>
+    
+            <label for="moose">Skriv elg:</label><br>
+            <input type="text" id="moose" name="moose"><br>
 
-        <label for="pig">skriv gris</label><br>
-        <input type="text" id="pig" value="bob" name="pig">
-        <button type="button" id="evaluatePig">valider</button><br>
+            <label for="animal">Valg af dyr</label>
+            <select name="animal" id="animal">
+                <option value="">Fugl</option>
+                <option value="">Fisk</option>
+                <option value="">Reptil</option>
+                <option value="">Insekt</option>
+                <option value="">Pattedyr</option>
+            </select><br>
 
-        <label for="moose">Skriv elg:</label><br>
-        <input type="text" id="moose" name="moose"><br>
-
-        <button type="button" id="evaluateForm">valider form</button>
-    </form>
+            <button type="button" id="evaluateForm">valider form</button>
+        </form>
+    </div>
 </body>
 
 </html>

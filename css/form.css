@@ -1,0 +1,21 @@
+.container-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+form input{
+    border-radius: 5px;
+}
+
+form button{
+    border-radius: 5px;
+}

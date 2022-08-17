@@ -19,7 +19,7 @@ validateAll.addEventListener("click", evaluateAll);
 
 function evaluateCow() {
 
-    if (cowInput.value == "ko") {
+    if (cowInput.value == "ko" | pigInput.value == "gris" & mooseInput.value == "elg") {
         // user feedback
         cowInput.style.backgroundColor = "#99ff33";
 
